@@ -54,7 +54,7 @@ public class phrase_fragement extends Fragment {
 @Override
 public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceView)
 {
-    View rootview = inflater.inflate(R.layout.list_items,container,false);
+    View rootview = inflater.inflate(R.layout.word_list,container,false);
 
     final ArrayList<variableClass> variable = new ArrayList<variableClass>();
     maudioManager = (AudioManager) getActivity().getSystemService(Context.AUDIO_SERVICE);

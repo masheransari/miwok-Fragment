@@ -17,7 +17,7 @@ public class phrase extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.word_list);
+        setContentView(R.layout.catagory);
         getSupportFragmentManager().beginTransaction().replace(R.id.container, new phrase_fragement()).commit();
 //        getActionBar().setDisplayHomeAsUpEnabled(true);
 

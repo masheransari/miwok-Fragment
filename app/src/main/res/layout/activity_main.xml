@@ -12,9 +12,7 @@
         android:id="@+id/tabs"
         style="@style/MyCustomTabLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="false"
-        />
+        android:layout_height="wrap_content" />
 
     <android.support.v4.view.ViewPager
         android:id="@+id/viewpager"

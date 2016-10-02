@@ -52,7 +52,7 @@ public class number_fragement extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
-        View rootview = inflater.inflate(R.layout.list_items,container,false);
+        View rootview = inflater.inflate(R.layout.word_list,container,false);
 
         final ArrayList<variableClass> variableClasses =  new ArrayList<variableClass>();
 
